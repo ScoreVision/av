@@ -21,7 +21,7 @@ describe Av do
         subject.run
       end
       
-      it { expect(File.exists?(destination)).to eq true }
+      it { expect(File.exist?(destination)).to eq true }
     end
   end
 end
